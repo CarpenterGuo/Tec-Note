@@ -1,0 +1,18 @@
+CentOS6.4 安装nmon
+
+安装
+
+mkdir /soft
+cd /soft
+wget http://sourceforge.net/projects/nmon/files/nmon_linux_14i.tar.gz
+tar zxvf nmon_linux_14i.tar.gz
+chmod 777 nmon_x86_64_sles11
+启动
+
+./nmon_x86_64_sles11
+说明：
+
+按C显示CPU信息，再按一次C关闭
+按M显示内存
+按N显示网络
+按D显示硬盘
